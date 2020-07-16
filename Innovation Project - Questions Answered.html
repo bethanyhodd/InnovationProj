@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Innovation Project - Questions Answered</title>
+    <link rel="icon" href="logo.gif">
+    <link rel="stylesheet" type="text/css" href="innovationprojcss.css" />
+
+</head>
+<body>
+    <button onclick="topFunction()" id="toTop" title="Go to top">back to top &and;</button>
+    <div id="header">
+        <br />
+        <img alt="logo" src="logo.gif" id="logo" width="90" height="90" />
+
+        <h1>Innovation Project</h1>
+        <h2>Quantum Security assisted by AI, Cloud Computing and Starlink</h2>
+        <br />
+    </div>
+    <ul class="topnav">
+        <li><img id="icon" src="logo.gif" alt="logo" height="25" width="25" /></li>
+        <li><a href="Innovation%20Project%20-%20Home.html">Intro</a></li>
+        <li><a href="Innovation%20Project%20-%20Detail.html">Why</a></li>
+        <li><a href="">Demo</a></li>
+        <li><a href="Innovation%20Project%20-%20Quantum.html">Quantum Computing</a></li>
+        <li><a href="Innovation%20Project%20-%20AI.html">AI</a></li>
+        <li><a href="Innovation%20Project%20-%20Pros.html">Pros & Cons</a></li>
+        <li><a href="Innovation%20Project%20-%20Conclusion.html">Conclusion</a></li>
+        <li><a href="Innovation%20Project%20-%20Questions%20Answered.html" class="active">Questions</a></li>
+    </ul>
+
+    <h3>Questions Answered</h3>
+    <img class="center" alt="questions" src="questions.gif" />
+
+    <footer>
+        <ul class="footernav">
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="https://db.com">Deutsche Bank</a></li>
+            <li><a href="https://www.db.com/company/en/imprint.htm?kid=imprint.inter-en.redirect">Imprint</a></li>
+            <li><a href="https://www.db.com/company/en/legal-resources.htm">Legal Resources</a></li>
+            <li><a href="Innovation%20Project%20-%20Cons.html">Links</a></li>
+        </ul>
+        <p>
+            Last edited: 15.07.2020
+        </p>
+        <br />
+    </footer>
+    <script>
+        //Get the button
+        var topButton = document.getElementById("toTop");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                topButton.style.display = "block";
+            } else {
+                topButton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+</body>
+
+</html>

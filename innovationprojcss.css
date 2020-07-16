@@ -1,0 +1,168 @@
+﻿html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Deutsche Bank Text', 'Malgun Gothic', sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Deutsche Bank Display', sans-serif;
+    margin: 3px;
+}
+
+h3 {
+    margin: 1% 0 1% 3%;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+h4 {
+    padding-top: 55px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-left: 5px;
+}
+
+p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-left: 5px;
+}
+
+#icon {
+    padding: 7px;
+    padding-top: 10px;
+}
+
+#header {
+    background-color: #ecf0f0;
+    top: 0;
+    margin: 0;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0098db;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+    ul.topnav li {
+        float: left;
+    }
+
+        ul.topnav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        ul.topnav li.user {
+            float: right;
+        }
+
+        ul.topnav li a:hover:not(.active) {
+            color: #263a94;
+        }
+
+        ul.topnav li a.active {
+            background-color: #263a94;
+        }
+
+        ul.topnav li a:active {
+            background-color: white;
+            color: black;
+        }
+
+@media screen and (max-width: 750px) {
+    ul.topnav li {
+        float: none;
+    }
+}
+
+#toTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #434343;
+    background-color:transparent;
+}
+
+    #toTop:hover {
+        color: #0098db;
+    }
+
+footer {
+    text-align: center;
+    background-color: #eff3f3;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    padding-top: 10px;
+    position: fixed;
+    width:100%;
+}
+
+ul.footernav {
+    list-style-type: none;
+    text-align: left;
+}
+
+footer a {
+    text-decoration: none;
+    color: #434343;
+}
+
+    footer a:hover {
+        color: #0098db;
+    }
+
+.right {
+    float: right;
+}
+
+#logo {
+    float:right;
+    margin:0;
+    padding:0;
+    margin-right: 15px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+.center_1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+
+.link {
+    float: right;
+    text-decoration: none;
+    font-weight: normal;
+    color: #434343;
+    font-size: medium;
+    margin-right: 5px;
+}
+
+.link:hover {
+    color: #0098db;
+}
